@@ -1,0 +1,53 @@
+/*------------
+Body styling
+-------------*/
+
+.wrapper {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.content {
+	margin-top: 40%;
+}
+
+.content:after {
+ 	content: '';
+ 	display: block;
+ 	clear: both;
+}
+
+/*-------------
+Div styling
+---------------*/
+
+.first {
+	float: left;
+	margin: auto 1%;
+	width: 46%;
+	line-height: 30px;
+	text-align: center;
+	background-color: #f0f0f0;
+	border-style: solid;
+}
+
+.second {
+	float: left;
+	margin: auto 1%;
+	width: 46%;
+	line-height: 30px;
+	text-align: center;
+	background-color: #f0f0f0;
+	border-style: solid;
+}
+
+/*-------------
+Number Styling
+---------------*/
+
+#score {
+	text-align: center;
+	padding: 40px;
+	font-size: 40px;
+}
